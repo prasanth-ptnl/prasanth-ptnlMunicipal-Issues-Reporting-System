@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complaint Register</title>
+  <link rel="stylesheet" href="LoginPage-styles.css">
+  <link href="images/logo1.png" rel="icon">
+</head>
+
+<body>
+<div class="bg-img"></div>
+<form action="./php/comp.php" method="post" enctype="multipart/form-data">
+  <div class="form">
+    <h2>Complain Now</h2>    
+    <p>
+      <input id="password" name="adr" type="text" placeholder="Adress">
+      <!-- <span>Enter a password longe r than 8 characters</span> -->
+    </p>
+    <p>
+      <input id="password" name="comp" type="text" placeholder="Complaint">
+      <!-- <span>Enter a password longe r than 8 characters</span> -->
+    </p>
+    <h1 style="color: #000;">
+      Upload Image:
+      <input id="password" name="image" type="file">
+      <!-- <span>Enter a password longe r than 8 characters</span> -->
+    </h1>
+    <p>
+      <input type="submit" value="Submit" id="submit" name="submit">
+    </p>
+  </div>
+</form>
+  
+</body>
+
+</html>
